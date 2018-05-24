@@ -68,9 +68,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
   }
 
-  img {
-    display: none;
-  }
 
   /* footer */
 
@@ -101,4 +98,10 @@ footer {
   footer ul li {
     float: left;
     margin-left: 15px;
+  }
+
+  /* demo */
+
+  .style_image {
+    width: 400px
   }

@@ -1,17 +1,14 @@
 <div class="center jumbotron">
-  <h1>Welcome to the Sample App</h1>
+  <h1>Welcome</h1>
 
   <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
+    This is a simple web app with embedded jupyter notebook. Click
+    <a href="http://jupyter.org/">this link</a>
+    for more information about jupyter.
   </h2>
   <div>
-  <%# <%= image_tag("kitten.jpg", alt: "Sweet kitty <3") %>
+  <%= image_tag("main-jupyter-logo.svg", alt: "logo", :class => "style_image") %>
   </div>
 
-  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+  <%= link_to "Run now!", 'static_pages/about', class: "btn btn-lg btn-primary" %>
 </div>
-
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
